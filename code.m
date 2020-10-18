@@ -1,5 +1,15 @@
-%%%%Defining the model and coefficients
+%%%%Defining the model and coeeficients
 
+
+%% Defining SCARA 5-DOF manipulator parameters 
+
+l = [ 0.524, 0.2, 0.2, 0.2, 0.14];
+lc= [0 , 0.0229, 0.0229, 0.0229, 0];
+m = [1.228, 1.023, 1.023, 1.023, 0.5114];
+Izz = [0, 0.0058, 0.0058, 0.0058, 0];
+Fv = [0.03, 0.025, 0.025, 0.025, 0.02];
+
+link_parameters = [l ; lc; m ; Izz; Fv];
 
 
 %% Controller Gains

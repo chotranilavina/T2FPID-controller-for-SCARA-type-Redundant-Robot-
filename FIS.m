@@ -76,6 +76,6 @@ My_fis=addRule(My_fis,["Error==NB & Rate_of_error==NB=>OP=NB"...
 %plotmf(My_fis,'input',1);
 %figure(2)
 %plotmf(My_fis,'output',1);
-gensurf(My_fis);
+%gensurf(My_fis);
 %evalfis(My_fis,[0.5 -0.3])
 writeFIS(My_fis,'Fuzzy_PD');
